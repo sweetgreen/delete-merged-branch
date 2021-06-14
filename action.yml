@@ -9,6 +9,10 @@ inputs:
     description: 'whether or not a branch should be deleted if PR is closed without merging'
     required: false
 
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
 branding:
   icon: 'archive'  
   color: 'red'
